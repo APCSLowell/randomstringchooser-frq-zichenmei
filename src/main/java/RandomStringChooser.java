@@ -10,7 +10,7 @@ public class RandomStringChooser
     ind=0;
   }
   public String getNext(){
-    if(ind<word){
+    if(ind<wordList.length){
       String word=wordList[ind];
       ind++;
       return word;
