@@ -2,7 +2,7 @@ import java.util.*;
 public class RandomStringChooser
 {
   /* to be implemented in part (a) */
-  private ArrayList[] words;
+  private ArrayList<String> words;
  
   public RandomStringChooser(String[] list){
     words=new ArrayList<String>();
